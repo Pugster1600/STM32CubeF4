@@ -32,6 +32,9 @@
   * @brief This is the list of modules to be used in the HAL driver 
   */
 #define HAL_MODULE_ENABLED  
+
+#define HAL_EXTI_MODULE_ENABLED
+#include "stm32f4xx_hal_exti.h"
 #define HAL_ADC_MODULE_ENABLED
 /* #define HAL_CAN_MODULE_ENABLED   */
 /* #define HAL_CAN_LEGACY_MODULE_ENABLED   */
